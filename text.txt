@@ -1,0 +1,21 @@
+CREATE DATABASE  `irtbs` ;
+
+
+Database irtbs has been created.
+
+
+
+
+CREATE TABLE  `irtbs`.`userdetail` (
+`name` VARCHAR( 50 ) NOT NULL ,
+`email` VARCHAR( 30 ) NOT NULL ,
+`passwd` VARCHAR( 30 ) NOT NULL ,
+`gender` VARCHAR( 10 ) NOT NULL ,
+`dob` VARCHAR( 15 ) NOT NULL ,
+`phone` VARCHAR( 15 ) NOT NULL ,
+`address` VARCHAR( 100 ) NOT NULL ,
+`country` VARCHAR( 20 ) NOT NULL
+) ENGINE = INNODB
+
+
+Table `irtbs`.`userdetail` has been created.
